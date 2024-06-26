@@ -12,7 +12,18 @@ The repository is structured by chapter, with each chapter having its own direct
 Here is an example structure:
 
 ```
-JavaScript.info-Exercises-Solutions/ │ ├── Chapter-1/ │   ├── Exercise-1/ │   │   ├── README.md │   │   └── solution.js │   ├── Exercise-2/ │   │   ├── README.md │   │   └── solution.js │   └── ... │ ├── Chapter-2/ │   ├── Exercise-1/ │   │   ├── README.md │   │   └── solution.js │   ├── Exercise-2/ │   │   ├── README.md │   │   └── solution.js │   └── ... │ └── ...
+
+.
+`-- JavaScript.info-Exercises-Solutions/ 
+    |-- ├── Chapter-1/ 
+    |-- │   ├── [exercise]/ 
+    |-- │   │   ├── README.md 
+    |-- │   │   └── solution.js 
+    |-- ├── Chapter-2/ 
+    |-- │   ├── [exercise]/ 
+    |-- │   │   ├── README.md 
+    `-- │   │   └── solution.js 
+
 ```
 
 ## Chapters
